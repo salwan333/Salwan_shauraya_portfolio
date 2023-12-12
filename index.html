@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
      <title>Shauraya Salwan's Resume</title>
-
-
-
-         
      <link rel="stylesheet" href="css/bootstrap.min.css">
      <link rel="stylesheet" href="css/all.min.css">
      <link rel="stylesheet" href="css/owl.carousel.min.css">
      <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/style.css">
      <link rel="stylesheet" href="css/tooplate-ben-resume-style.css">
-
 </head>
 
 <body data-spy="scroll" data-target="#navbarNav" data-offset="50">
+<!---PHP Code --->
+
+
+
+
 
     <!-- MENU BAR -->
     <nav class="navbar navbar-expand-lg">
@@ -27,7 +25,7 @@
               Shauraya Salwan
             </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" id="Save1" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -40,12 +38,12 @@
                     <li class="nav-item">
                         <a href="#about" class="nav-link smoothScroll">About Me</a>
                     </li>
-					<li class="nav-item">
-                        <a href="#skills" class="nav-link smoothScroll">Skills</a>
-                    </li>
 
                     <li class="nav-item">
                         <a href="#testimonials" class="nav-link smoothScroll">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#video" class="nav-link smoothScroll">Videos</a>
                     </li>
 
                     <li class="nav-item">
@@ -67,7 +65,7 @@
             <div class="row">
 
                   <div class="mx-auto col-lg-5 col-md-5 col-10">
-                      <img src="images/bencopy.jpg" class="img-fluid" alt="Ben Resume HTML Template">
+                      <img src="images/bencopy.jpg" class="img-fluid" alt="img">
                   </div>
 
                    <div class="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
@@ -92,7 +90,7 @@
                 <div class="col-lg-6 col-md-6 col-12">
                     <h3 class="mb-4">This is Shauraya Salwan's Resume</h3>
 
-                    <p>Hello, my name is Shauraya Salwan, and I am a student of 
+                    <p style="text-align:justify">Hello, my name is Shauraya Salwan, and I am a student of 
                       Interactive Media Design, specializing in Web Development 
                       and Web Programming. I have past experience as a Customer 
                       Service Representative and UI/UX Designer. I have worked 
@@ -111,13 +109,53 @@
                 </div>
 
                 <div class="col-lg-5 mx-auto col-md-6 col-12">
-                    <img src="images/true-agencycopy.jpg" class="about-image img-fluid" alt="Ben's Resume HTML Template">
+                    <img src="images/true-agencycopy.jpg" class="about-image img-fluid" alt="img">
                 </div>
 
             </div>
           </section>
 
-          <section class="testimonials section-padding" id="skills">            <div class="col-12">
+          <!--Demo Reels-->
+          <!--  Video Section -->
+         <section class="testimonials section-padding" id="demoreels">           
+             <div class="col-12">
+            <div class="col-12">
+              <h3 class="mb-5 text-center"> <a href="#" class="email-link">
+              Demo Reels
+            </a></h3>
+              </div>
+             
+            <div class="row about-third">
+              <div class="col-lg-12 col-md-4 col-12">
+                <h3 class="text-center">&nbsp;</h3>
+                <p>
+                    <div class="zoom-effect-container">
+                        <div class="image-card">
+                            <video width="1300" height="400" controls>
+                                <source src="videos/FINALDEMOREEL01_2.mp4" type="video/mp4">
+                                <source src="videos/FINALDEMOREEL01_2.ogg" type="video/ogg">
+                              Your browser does not support the video tag.
+                              </video>
+                </div>
+                </div>
+                </p>
+                </div>
+            	
+               
+                
+              
+            </div>
+        </div>
+    </section>
+     
+
+
+
+
+
+
+          <section class="testimonials section-padding" id="skills">           
+             <div class="col-12">
             <div class="col-12">
               <h3 class="mb-5 text-center"> <a href="#" class="email-link">
                SKILLS
@@ -126,28 +164,47 @@
              
             <div class="row about-third">
               <div class="col-lg-3 col-md-4 col-12">
-                <h3>Programming</h3>
+                <h3 class="text-center">Programming</h3>
                 <p>
-                  <img src="images/skills/programming.jpg" class="about-image img-fluid" alt="Ben's Resume HTML Template">
+                    <div class="zoom-effect-container">
+                        <div class="image-card">
+                            
+                  <img src="images/skills/programming.jpg" class="about-image img-fluid " title="I have worked on Multiple Programming Projects" alt="img">
+                
+                </div>
+                </div>
                 </p>
                 </div>
             	<div class="col-lg-3 col-md-4 col-12">
-                <h3>Designing</h3>
+                <h3 class="text-center">Designing</h3>
                 <p>
-                  <img src="images/skills/design.jpg" class="about-image img-fluid" alt="Ben's Resume HTML Template">
+                    <div class="zoom-effect-container">
+                        <div class="image-card">
+                  <img src="images/skills/design.jpg" class="about-image img-fluid" title="In my design project i usally work on the wireframe and the promotional images" alt="img">
+                </div>
+                </div>
                 </p>
                 </div>
                 <div class="col-lg-3 col-md-4 col-12">
-                  <h3>Digital Marketing</h3>
+                  <h3 class="text-center">Digital Marketing</h3>
                   <p>
-                    <img src="images/skills/marketing.jpg" class="about-image img-fluid" alt="Ben's Resume HTML Template">
-                  </p>
+                    <div class="zoom-effect-container">
+                        <div class="image-card">
+                    <img src="images/skills/marketing.jpg" class="about-image img-fluid" title="I was a digital marketing expert with fitness Junction" alt="img">
+                </div>
+                </div>  
+                </p>
                 </div>
                 <div class="col-lg-3 col-md-4 col-12">
-                  <h3>Database</h3>
+                  <h3 class="text-center">Database</h3>
                   <p>
-                    <img src="images/skills/databse.jpg" class="about-image img-fluid" alt="Ben's Resume HTML Template">
-                  </p>
+                    <div class="zoom-effect-container">
+                        <div class="image-card">
+                    <img src="images/skills/databse.jpg" class="about-image img-fluid" title="I have learnt mutiple database languages like php and sql" alt="img">
+                </div>
+                </div>
+
+                </p>
                 </div>
               
             </div>
@@ -170,7 +227,12 @@
                             <div class="item">
                                 <div class="testimonials-thumb d-flex">
                                     <div class="testimonials-image">
+                                        <div class="zoom-effect-container">
+                                            <div class="image-card">
                                         <img src="images/mywork/bheemveda.jpg" class="img-fluid" alt="testimonials image">
+                                        <h6 class="mb-5 text-center">Bheemveda</h6>
+                                    </div>
+                                   </div>
                                     </div>
 
                                   
@@ -180,7 +242,12 @@
                             <div class="item">
                                 <div class="testimonials-thumb d-flex">
                                     <div class="testimonials-image">
+                                        <div class="zoom-effect-container">
+                                            <div class="image-card">
                                         <img src="images/mywork/billybeer.jpeg" class="img-fluid" alt="testimonials image">
+                                        <h6 class="mb-5 text-center">BillyBeer</h6>
+                                    </div>
+                                    </div>
                                     </div>
 
                                    
@@ -190,7 +257,12 @@
                             <div class="item">
                                 <div class="testimonials-thumb d-flex">
                                     <div class="testimonials-image">
+                                        <div class="zoom-effect-container">
+                                            <div class="image-card">
                                         <img src="images/mywork/earbuds.jpg" class="img-fluid" alt="testimonials image">
+                                        <h6 class="mb-5 text-center">EAR BUDS</h6>
+                                    </div>
+                                    </div>
                                     </div>
 
                                     
@@ -200,7 +272,11 @@
                             <div class="item">
                                 <div class="testimonials-thumb d-flex">
                                     <div class="testimonials-image">
+                                        <div class="zoom-effect-container">
+                                            <div class="image-card">
                                         <img src="images/mywork/fitness.jpg" class="img-fluid" alt="testimonials image">
+                                    </div>
+                                    </div>
                                     </div>
 
                                     
@@ -215,83 +291,64 @@
      </section> 
 
 
-       <!-- Video -->
-    <section class="testimonials section-padding" id="video">
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-12">
-                        <h3 class="mb-5 text-center"><a href="#" class="email-link">
-                          Video
-                       </a></h3>
-                       
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=400px, initial-scale=1.0">
-    <title>Video Player</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="video-container">
-        <video id="myVideo" controls>
-            <source src="video/FINALDEMOREEL01_2.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-
-    <script src="script.js"></script>
-</body>
-</html>
-
-                      
-
-                        <div class="owl-carousel owl-theme" id="testimonials-carousel1">
-                            <div class="item">
-                                <div class="testimonials-thumb d-flex">
-                                    <div class="testimonials-image">
-                                        <img src="images/mywork/bheemveda.jpg" class="img-fluid" alt="testimonials image">
-                                    </div>
-
-                                  
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div class="testimonials-thumb d-flex">
-                                    <div class="testimonials-image">
-                                        <img src="images/mywork/billybeer.jpeg" class="img-fluid" alt="testimonials image">
-                                    </div>
-
-                                   
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div class="testimonials-thumb d-flex">
-                                    <div class="testimonials-image">
-                                        <img src="images/mywork/earbuds.jpg" class="img-fluid" alt="testimonials image">
-                                    </div>
-
-                                    
-                                </div>
-                            </div>
-                             <div class="item">
-                                <div class="testimonials-thumb d-flex">
-                                    <div class="testimonials-image">
-                                        <img src="images/mywork/earbuds.jpg" class="img-fluid" alt="testimonials image">
-                                    </div>
-                                 
-                                </div>
-                            </div>
-
-                           
-                        </div>
-
-                    </div>
-
-               </div>
-          </div>
-     </section>
+     <!--  Video Section -->
+         <section class="testimonials section-padding" id="video">           
+             <div class="col-12">
+            <div class="col-12">
+              <h3 class="mb-5 text-center"> <a href="#" class="email-link">
+              My 3D Videos Works
+            </a></h3>
+              </div>
+             
+            <div class="row about-third">
+              <div class="col-lg-4 col-md-4 col-12">
+                <h3 class="text-center">Ear Buds</h3>
+                <p>
+                    <div class="zoom-effect-container">
+                        <div class="image-card">
+                            <video width="400" height="300" controls>
+                                <source src="videos/Buds_reel.mp4" type="video/mp4">
+                                <source src="videos/Buds_reel.ogg" type="video/ogg">
+                              Your browser does not support the video tag.
+                              </video>
+                </div>
+                </div>
+                </p>
+                </div>
+            	<div class="col-lg-4 col-md-4 col-12">
+                <h3 class="text-center">Billy Beer</h3>
+                <p>
+                    <div class="zoom-effect-container">
+                        <div class="image-card">
+                            <video width="400" height="300" controls>
+                                <source src="videos/WhatsApp Video 2023-12-09 at 8.21.49 AM.mp4" type="video/mp4">
+                                <source src="videos/WhatsApp Video 2023-12-09 at 8.21.49 AM.ogg" type="video/ogg">
+                              Your browser does not support the video tag.
+                              </video>
+                </div>
+                </div>
+                </p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <h3 class="text-center">Elin Glow</h3>
+                  <p>
+                    <div class="zoom-effect-container">
+                        <div class="image-card">
+                            <video width="400" height="300" controls>
+                                <source src="videos/Sequence 01.mp4" type="video/mp4">
+                                <source src="videos/Sequence 01.ogg" type="video/ogg">
+                              Your browser does not support the video tag.
+                              </video>
+                </div>
+                </div>  
+                </p>
+                </div>
+                
+              
+            </div>
+        </div>
+    </section>
+     
 
 
     
@@ -307,8 +364,8 @@
            </div>
 
           <div class="col-lg-6 col-md-6 col-12">
-            <form action="#" method="get" class="contact-form webform"  role="form">
-             
+            <form action="conn.php" method="POST" class="contact-form webform"  role="form">
+                
                 <div class="form-group d-flex flex-column-reverse">
                     <input type="text" class="form-control" name="cf-name" id="cf-name" placeholder="Your Name">
 
@@ -317,29 +374,34 @@
 
                 <div class="form-group d-flex flex-column-reverse">
                     <input type="email" class="form-control" name="cf-email" id="cf-email" placeholder="Your Email">
+
                     <label for="cf-email" class="webform-label">Your Email</label>
                 </div>
+
                 <div class="form-group d-flex flex-column-reverse">
                     <textarea class="form-control" rows="5" name="cf-message" id="cf-message" placeholder="Your Message"></textarea>
+
                     <label for="cf-message" class="webform-label">Message</label>
                 </div>
-                <button type="submit" class="form-control" id="submit-button" name="submit">Send</button>
-            
-            
-            
+
+               <!-- <button type="submit" class="form-control" id="submit-button" name="submit">Send</button> -->
+               <input type ="submit" class="btn-primary " name ="Submit" value ="Send">
             </form>
           </div>
 
             <div class="mx-auto col-lg-4 col-md-6 col-12">
                 <h3 class="my-4 pt-4 pt-lg-0">Say hello</h3>
+
                 <p class="mb-1">001-111-1234</p>
+
                 <p>
                     <a href="#">
                         hello@ShaurayaSalwan.com
                     <i class="fas fa-arrow-right custom-icon"></i>
                     </a>
-               </p>
-     
+                </p>
+
+               
            
             </div>
 
@@ -353,8 +415,12 @@
      <script src="js/owl.carousel.min.js"></script>
      <script src="js/custom.js"></script>
      
-
+    
      
 
-</body>
+
+        </body>
+
+
+
 </html>
